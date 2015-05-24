@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Home</title>
+     <meta charset="utf-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+     <link rel="icon" href="images/favicon.ico">
+     <link rel="shortcut icon" href="images/favicon.ico" />
+     <link rel="stylesheet" href="css/style.css">
+	 <link rel="stylesheet" href="css/zerogrid.css" type="text/css" media="all">
+	 <link rel="stylesheet" href="css/responsive.css" type="text/css" media="all">
+	 <link rel="stylesheet" href="css/responsiveslides.css" />
+     <script src="js/jquery.js"></script>
+     <script src="js/jquery.easing.1.3.js"></script>
+     <script src="js/jquery-migrate-1.1.1.js"></script>
+     <script src="js/superfish.js"></script>
+     <script src="js/jquery.equalheights.js"></script>
+     <script src="js/tms-0.4.1.js"></script>
+     <script src="js/jquery.carouFredSel-6.1.0-packed.js"></script>
+     <script src="js/jquery.ui.totop.js"></script>
+	 <script type="text/javascript" src="js/css3-mediaqueries.js"></script>
+     <script src="js/responsiveslides.js"></script>
+		<script>
+	    $(function () {
+	      $("#slider").responsiveSlides({
+	        auto: true,
+	        pager: false,
+	        nav: true,
+	        speed: 500,
+	        maxwidth: 960,
+	        namespace: "centered-btns"
+	      });
+	    });
+	  </script>
+     <!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+         </a>
+      </div>
+    <![endif]-->
+     <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <link rel="stylesheet" media="screen" href="css/ie.css">
+    <![endif]-->
+</head>
+<body>
+<!--==============================header=================================-->
+<header>
+	<div class="zerogrid">
+		<div class="col-full">
+           <h1><a href="index.html"><img src="images/logof.jpg" alt="shrinath" width=83 height=65></a></h1>
+		   <br>
+		   <h1>Shrinath Earthing Solutions <h1>
+		</div>
+    </div>
+    <nav>
+        <div class="zerogrid" style="text-align: center;">
+            <div class="col-full">
+				<div class="wrap-col">
+                <ul class="sf-menu">
+                    <li class="current"><a href="index.html">HOME</a></li>
+                    <li><a href="index-1.html">ABOUT</a>
+                    	<ul>
+                            <li><a href="#">OUR HISTORY</a></li>
+                            <li><a href="#">OUR TEAM</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">PROJECTS</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="index-4.html">CONTACTS</a></li>
+                </ul>
+                <div class="clear"></div>
+				</div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!--=======content================================-->
+<div id="content">
+	<div class="featured">
+		<div class="rslides_container zerogrid">
+			<ul class="rslides" id="slider">
+				<li><img src="images/f1.jpg" alt=""></li>
+				<li><img src="images/f6.jpg" alt=""></li>
+				<li><img src="images/f4.jpg" alt=""></li>
+				<li><img src="images/f5.jpg" alt=""></li>
+			</ul>
+		</div>
+    </div>
+	<div class="zerogrid">
+		<div class="col-1-4 box-1">
+        	<div class="wrap">
+                <img src="images/page1-img1.png" alt="">
+                <h4>Earthing</h4>
+            	
+The primary purpose of earthing is to reduce the risk of serious electric shock from current leaking into uninsulated metal parts of an appliance, power tool, or other electrical devices. In a properly earthed system, such leaking/fault current is carried away harmlessly while tripping the fuse. Earthing also provides protection from large electrical disturbances like lightning strikes,power surges and aids in the dissipation of hazardous static  charges.
+			</div>
+		</div>
+        <div class="col-1-4 box-1">
+        	<div class="wrap">
+                <img src="images/page1-img2.png" alt="">
+                <h4> Our Firm</h4>
+            	Shrinath Earthing solution India Ltd.recognizes the importance of an integrated strategy in 
+		providing lightning protection and has incorporated several major concepts 
+		into a Five Level Plan of Protection:
+		<br>
+			Capture the lightning strike,
+			<br>
+			Convey this energy to ground,
+			<br>
+			Dissipate energy into the grounding system,
+			<br>
+			Bond all ground points together,
+			<br>
+			Protect incoming AC power feeders.
+			<br>
+			</div>
+		</div>
+        <div class="col-1-4 box-1">
+        	<div class="wrap">
+                <img src="images/page1-img3.png" alt="">
+                <h4>Our Products</h4>
+Nearly all the company’s power protectors have the SABS mark of approval, and many of these products are specified by major users, such as mobile telephone networks, mining houses and the petroleum industry, to name a few. During the infancy stage of the mobile telephone industry, various telephone networks made use of our firm's expertise and protection devices to protect their installations from lightning and surge damage.
+			</div>
+		</div>
+        <div class="col-1-4 box-1">
+        	<div class="wrap">
+                <img src="images/page1-img4.png" alt="">
+                <h4>Consultancy</h4>
+            Our comprehensive consultancy service can help you overcome earthing related issues including: installation guidance design; training in all areas of earthing; advanced interference studies; standards committee support and provision of expert witnesses.
+			They are backed by extensive literature, test reports and technical papers, data sheets, installation instructions and risk analysis software.Such a rigorous and specialised testing and analysis procedure brings you the best products.
+			</div>
+		</div>
+        <div class="clear"></div>
+		</div>
+        <div class="clear"></div>
+	</div>
+    <div class="bg-1 carousel">
+        <div class="zerogrid">
+        	<div class="row">
+				<div class="col-1-4">
+					<div class="wrap-col">
+					</div>
+				</div>
+				<div class="col-1-4">
+					<div class="wrap-col">
+						 
+					</div>
+				</div>
+				<div class="col-1-4">
+					<div class="wrap-col">
+						
+					</div>
+				</div>
+				<div class="col-1-4">
+					<div class="wrap-col">
+					
+					</div>
+				</div>
+			</div>
+        </div>
+    </div> 
+<!--==============================footer=================================-->
+<footer>
+	<div class="zerogrid">
+		<div class="col-2-3">
+			<div class="wrap-col">
+			 &copy; Shrinath Earthing Solutions India Pvt.Ltd
+	<br>Contact: customercare@shrinathearthing.com
+			</div>
+		</div>
+	</div>
+</footer>
+
+</body>
+</html>
